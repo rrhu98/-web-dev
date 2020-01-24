@@ -3,12 +3,42 @@ body {
 }
 
 #title {
-    position: absolute; visibility: visible; left: 500px; top: 80px; z-index: 200;
+    position: absolute; visibility: visible; left: 480px; top: 100px; z-index: 200;
+    font-family: 'ASM';
+    
 }
 
-#meat {
-    position: absolute; visibility: visible; left: 20px; top: 300px; z-index: 200;
+H4 {
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+#aboutme {
+    position: absolute; visibility: visible; left: 600px; top: 300px; z-index: 200;
     text-align: center;
+    width: 700px;
+    word-wrap: break-word;
+
+    font-family: 'ASM';
+    
+}
+
+#quote {
+    position: absolute; visibility: visible; left: 100px; top: 360px; z-index: 200;
+    text-align: center;
+    width: 400px;
+    word-wrap: break-word;
+
+    font-family: 'ASM';
+}
+
+#contact {
+    position: absolute; visibility: visible; left: 200px; top: 550px; z-index: 200;
+    text-align: center;
+    width: 1000px;
+    word-wrap: break-word;
+    font-family: 'ASM';
 }
 
 #me img {
@@ -23,5 +53,14 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: 'ASM';
     
 }
+
+@font-face {
+    font-family: "ASM";
+    src: 
+    url("fonts/asm/asm-regular-webfont.woff") format("woff"),
+    url("fonts/asm/ASM\ Regular.otf") format("opentype"),
+    url("fonts/asm/asm-regular-webfont.woff2") format("woff2");
+    }
