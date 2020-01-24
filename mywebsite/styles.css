@@ -14,6 +14,10 @@ H4 {
     padding: 0;
 }
 
+H3{
+    color:gray;
+}
+
 #aboutme {
     position: absolute; visibility: visible; left: 600px; top: 300px; z-index: 200;
     text-align: center;
@@ -49,12 +53,55 @@ H4 {
 
 
 ul {
+    position: absolute; visibility: visible; left: 50px; top: 20px; z-index: 200;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     font-family: 'ASM';
     
+}
+
+li {
+    float: left;
+    text-align: center;
+    margin: 50px;
+}
+
+#l{
+    color: rgb(22, 139, 206)
+}
+#lin{
+    position: relative;
+    top: 20px;
+}
+
+#i{
+    color: rgb(241, 169, 35);
+}
+#ig {
+    position:relative;
+    top: 10px;
+    left: -10px;
+}
+
+#gi{
+    color:black;
+}
+#git{
+    position:relative;
+    top: 20px;
+    left:5px;
+}
+
+#gm{
+    color:red;
+}
+
+#gma{
+    position: relative;
+    top:15px;
+    left: -7px;
 }
 
 @font-face {
