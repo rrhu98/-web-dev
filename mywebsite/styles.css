@@ -1,0 +1,27 @@
+body {
+    background-color: whitesmoke;
+}
+
+#title {
+    position: absolute; visibility: visible; left: 500px; top: 80px; z-index: 200;
+}
+
+#meat {
+    position: absolute; visibility: visible; left: 20px; top: 300px; z-index: 200;
+    text-align: center;
+}
+
+#me img {
+    position: absolute; visibility: visible; left: 700px; top: 50px; z-index: 200;
+    border-radius: 50%;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
