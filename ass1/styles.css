@@ -1,0 +1,96 @@
+body {
+    background-color: slategray;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px darkslategray;
+  }
+
+  h3 {
+      color: white;
+      text-align: center;
+      font-family: verdana; 
+      text-shadow: 5px 3px darkslategray;
+  }
+  
+  h4 {
+    color: white;
+    text-align: center;
+    font-family: verdana; 
+    text-shadow: 5px 3px darkslategray;
+}
+
+  h5 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+  }
+  
+  div {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+  }
+
+  b{
+      text-shadow: 5px 3px darkslategray;
+  }
+
+  #bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: verdana;
+  }
+  
+  li a:hover {
+    background-color: teal;
+  }
+
+  #bulletp {
+      font-family: verdana;
+      color: white;
+      text-align: center;
+  }
+
+  table {
+    font-family: verdana;
+    color: white;
+    text-align: center;
+  }
+
+  table, th, td {
+    border: 1px solid white;
+    padding:10px;
+  }
+
+  th {
+    text-shadow: 5px 1px darkslategray;
+    padding: 15px;
+  
+  }
+
+  button {
+    background-color: slategray;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+  }
