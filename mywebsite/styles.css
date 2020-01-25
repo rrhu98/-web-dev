@@ -2,20 +2,26 @@ body {
     background-color: whitesmoke;
 }
 
+
+
 #title {
     position: absolute; visibility: visible; left: 480px; top: 100px; z-index: 200;
     font-family: 'ASM';
     
 }
 
-H4 {
-    color: gray;
+#hello {
+    color:rgb(93, 179, 236);
     margin: 0;
     padding: 0;
 }
 
 H3{
     color:gray;
+}
+
+#who {
+    color: rgb(250, 162, 0);
 }
 
 #aboutme {
@@ -35,6 +41,10 @@ H3{
     word-wrap: break-word;
 
     font-family: 'ASM';
+}
+
+#freddy {
+    color: rgb(34, 209, 107)
 }
 
 #contact {
@@ -74,6 +84,7 @@ li {
 #lin{
     position: relative;
     top: 20px;
+    left: 3px;
 }
 
 #i{
