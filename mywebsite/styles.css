@@ -3,7 +3,10 @@ body {
 }
 
 
-
+#welcome {
+    margin-left: auto;
+    margin-right: auto ;
+}
 #title {
     position: absolute; visibility: visible; left: 480px; top: 100px; z-index: 200;
     font-family: 'ASM';
@@ -25,7 +28,9 @@ H3{
 }
 
 #aboutme {
-    position: absolute; visibility: visible; left: 600px; top: 300px; z-index: 200;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative; top: 120px;
     text-align: center;
     width: 700px;
     word-wrap: break-word;
@@ -35,7 +40,9 @@ H3{
 }
 
 #quote {
-    position: absolute; visibility: visible; left: 100px; top: 360px; z-index: 200;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; top: 530px;
     text-align: center;
     width: 400px;
     word-wrap: break-word;
@@ -48,7 +55,9 @@ H3{
 }
 
 #contact {
-    position: absolute; visibility: visible; left: 200px; top: 550px; z-index: 200;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; top: 370px;
     text-align: center;
     width: 1000px;
     word-wrap: break-word;
@@ -63,19 +72,19 @@ H3{
 
 
 ul {
-    position: absolute; visibility: visible; left: 50px; top: 20px; z-index: 200;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; top: -50px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     font-family: 'ASM';
     
 }
 
 li {
     float: left;
+    display: inline;
     text-align: center;
-    margin: 50px;
+    margin: 60px;
 }
 
 #l{
@@ -113,6 +122,28 @@ li {
     position: relative;
     top:15px;
     left: -7px;
+}
+
+#li1 {
+    position:relative;
+    top:-15px;
+}
+
+#li2{
+    position: relative;
+    left:-10px;
+}
+
+#li3 {
+    position: relative;
+    top:-23px;
+    left:-40px;
+}
+
+#li4 {
+    position: relative;
+    top:-5px;
+    left: -50px;
 }
 
 @font-face {
